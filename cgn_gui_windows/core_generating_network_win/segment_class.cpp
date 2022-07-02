@@ -428,7 +428,7 @@ float segment_class::testing_for_each_label()//finds the accuracy of each label
         accuracy=(((float)correct_each_label[a])/((float)total_each_label[a]))*100;
         if(critical_variables_set)
         {
-            print_message("\nAccuracy for label "+to_string(f_data_vector[a].label)+" = "+to_string(accuracy)+"%"+" correct="+to_string(correct_each_label[a])+" total="+to_string(total_each_label[a])+" df="+to_string(df[a])+" nf="+to_string(nf[a]));
+            print_message("\nAccuracy for label "+to_string(f_data_vector[a].label/100)+" = "+to_string(accuracy)+"%"+" correct="+to_string(correct_each_label[a])+" total="+to_string(total_each_label[a])+" df="+to_string(df[a])+" nf="+to_string(nf[a]));
         }
         avg_accuracy+=accuracy;
     }
