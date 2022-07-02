@@ -1,0 +1,1048 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 53.36      1.35     1.35   194027     0.01     0.01  modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*)
+  9.88      1.60     0.25    19335     0.01     0.10  modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*)
+  7.91      1.80     0.20   197699     0.00     0.00  void std::__introsort_loop<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
+  4.74      1.92     0.12 22154962     0.00     0.00  float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&)
+  4.35      2.03     0.11   342770     0.00     0.00  core_class::propagate(std::vector<float, std::allocator<float> >)
+  3.95      2.13     0.10   195587     0.00     0.00  void std::__insertion_sort<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter)
+  3.16      2.21     0.08    14268     0.01     0.15  modified_simplex_solver::start_solver(converted_data_pack*)
+  1.58      2.25     0.04    10352     0.00     0.00  std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()()
+  1.19      2.28     0.03    10352     0.00     0.01  genetic_algorithm::get_random_number(int, int)
+  0.79      2.30     0.02   242445     0.00     0.00  void std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> >::_M_realloc_insert<modified_simplex_solver::id const&>(__gnu_cxx::__normal_iterator<modified_simplex_solver::id*, std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> > >, modified_simplex_solver::id const&)
+  0.79      2.32     0.02   201511     0.00     0.00  modified_simplex_solver::make_solution_feasible::termination_condition_checker(modified_simplex_solver::simplex_table*)
+  0.79      2.34     0.02   162349     0.00     0.00  segment_class::propagate(std::vector<float, std::allocator<float> >)
+  0.79      2.36     0.02     1071     0.02     0.02  segment_class::split_attributes_for_each_core()
+  0.79      2.38     0.02                             core_class::train_core()
+  0.40      2.39     0.01  1023785     0.00     0.00  void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&)
+  0.40      2.40     0.01   962839     0.00     0.00  std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::push_back(std::vector<float, std::allocator<float> > const&)
+  0.40      2.41     0.01   368247     0.00     0.00  void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&)
+  0.40      2.42     0.01   336856     0.00     0.00  void std::vector<float, std::allocator<float> >::_M_range_insert<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > > >(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, std::forward_iterator_tag)
+  0.40      2.43     0.01   194561     0.00     0.00  void std::vector<neuron*, std::allocator<neuron*> >::_M_realloc_insert<neuron*>(__gnu_cxx::__normal_iterator<neuron**, std::vector<neuron*, std::allocator<neuron*> > >, neuron*&&)
+  0.40      2.44     0.01    96186     0.00     0.00  void std::vector<long double, std::allocator<long double> >::_M_realloc_insert<long double const&>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long double const&)
+  0.40      2.45     0.01    89752     0.00     0.00  segment_class::checker_nf(std::vector<neuron, std::allocator<neuron> >&)
+  0.40      2.46     0.01    53543     0.00     0.00  converted_data_pack::converted_data_pack(converted_data_pack const&)
+  0.40      2.47     0.01    30887     0.00     0.00  void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
+  0.40      2.48     0.01    23769     0.00     0.00  void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_range_insert<__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > > >(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::forward_iterator_tag)
+  0.40      2.49     0.01     3635     0.00     0.00  void std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >::_M_realloc_insert<std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&>(__gnu_cxx::__normal_iterator<std::vector<converted_data_pack, std::allocator<converted_data_pack> >*, std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > > >, std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&)
+  0.40      2.50     0.01     3564     0.00     0.00  void std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> >::_M_realloc_insert<simplex_solver_data_preparation_class const&>(__gnu_cxx::__normal_iterator<simplex_solver_data_preparation_class*, std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> > >, simplex_solver_data_preparation_class const&)
+  0.40      2.51     0.01      871     0.01     0.20  segment_class::testing_for_each_label()
+  0.40      2.52     0.01        1    10.00   209.04  segment_class::train()
+  0.20      2.53     0.01                             simplex_solver_data_preparation_class::lp_solver()
+  0.20      2.53     0.01                             std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (simplex_solver_data_preparation_class::*)(), simplex_solver_data_preparation_class> > >::_M_run()
+  0.00      2.53     0.00   697857     0.00     0.00  double& std::vector<double, std::allocator<double> >::emplace_back<double>(double&&)
+  0.00      2.53     0.00   352636     0.00     0.00  void std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >::_M_realloc_insert<std::vector<neuron, std::allocator<neuron> > >(__gnu_cxx::__normal_iterator<std::vector<neuron, std::allocator<neuron> >*, std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > > >, std::vector<neuron, std::allocator<neuron> >&&)
+  0.00      2.53     0.00   269010     0.00     0.00  std::vector<int, std::allocator<int> >::_M_erase(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >)
+  0.00      2.53     0.00   211741     0.00     0.00  modified_simplex_solver::make_solution_feasible::add_index_data(int, int)
+  0.00      2.53     0.00   211200     0.00     0.00  std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
+  0.00      2.53     0.00   210050     0.00     0.00  void std::vector<long double, std::allocator<long double> >::_M_range_insert<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > > >(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, std::forward_iterator_tag)
+  0.00      2.53     0.00   197560     0.00     0.00  neuron*& std::vector<neuron*, std::allocator<neuron*> >::emplace_back<neuron*>(neuron*&&)
+  0.00      2.53     0.00   171753     0.00     0.00  void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&)
+  0.00      2.53     0.00   158157     0.00     0.00  segment_class::combine_output_neurons(std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >)
+  0.00      2.53     0.00   153981     0.00     0.00  std::vector<neuron, std::allocator<neuron> >::_M_default_append(unsigned long)
+  0.00      2.53     0.00   142044     0.00     0.00  long double& std::vector<long double, std::allocator<long double> >::emplace_back<long double>(long double&&)
+  0.00      2.53     0.00    98352     0.00     0.00  void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+  0.00      2.53     0.00    87553     0.00     0.00  std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_erase(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >)
+  0.00      2.53     0.00    83298     0.00     0.00  std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&)
+  0.00      2.53     0.00    66728     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+  0.00      2.53     0.00    59539     0.00     0.00  converted_data_pack::~converted_data_pack()
+  0.00      2.53     0.00    51911     0.00     0.00  std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector()
+  0.00      2.53     0.00    35915     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
+  0.00      2.53     0.00    34734     0.00     0.00  void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+  0.00      2.53     0.00    27961     0.00     0.00  genetic_algorithm::comparator(chromosome, chromosome)
+  0.00      2.53     0.00    26110     0.00     0.00  modified_simplex_solver::check_for_corrupt_cdp(converted_data_pack*)
+  0.00      2.53     0.00    25636     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      2.53     0.00    22602     0.00     0.00  std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+  0.00      2.53     0.00    14375     0.00     0.00  std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::operator=(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&)
+  0.00      2.53     0.00    13970     0.00     0.00  segment_class::checker_df(std::vector<neuron, std::allocator<neuron> >&)
+  0.00      2.53     0.00    12726     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  0.00      2.53     0.00    11848     0.00     0.00  std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&)
+  0.00      2.53     0.00    10997     0.00     0.00  void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&)
+  0.00      2.53     0.00    10449     0.00     0.00  simplex_solver_data_preparation_class::~simplex_solver_data_preparation_class()
+  0.00      2.53     0.00    10352     0.00     0.00  unsigned long std::uniform_int_distribution<unsigned long>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_int_distribution<unsigned long>::param_type const&)
+  0.00      2.53     0.00     7488     0.00     0.00  std::vector<converted_data_pack, std::allocator<converted_data_pack> >::operator=(std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&)
+  0.00      2.53     0.00     7367     0.00     0.00  std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::~vector()
+  0.00      2.53     0.00     7054     0.00     0.00  path_struct::~path_struct()
+  0.00      2.53     0.00     6939     0.00     0.00  simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&)
+  0.00      2.53     0.00     6877     0.00     0.00  modified_simplex_solver::make_solution_feasible::conflicting_data_finder(modified_simplex_solver::simplex_table*)
+  0.00      2.53     0.00     6656     0.00     0.00  void std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::_M_realloc_insert<nn_core_filtered_data const&>(__gnu_cxx::__normal_iterator<nn_core_filtered_data*, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > >, nn_core_filtered_data const&)
+  0.00      2.53     0.00     4730     0.00     0.00  void std::vector<path_struct, std::allocator<path_struct> >::_M_realloc_insert<path_struct const&>(__gnu_cxx::__normal_iterator<path_struct*, std::vector<path_struct, std::allocator<path_struct> > >, path_struct const&)
+  0.00      2.53     0.00     4440     0.00     0.00  std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_erase(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >)
+  0.00      2.53     0.00     3669     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  0.00      2.53     0.00     3635     0.00     0.00  void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_range_insert<__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, std::forward_iterator_tag)
+  0.00      2.53     0.00     3621     0.00     0.00  void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)>)
+  0.00      2.53     0.00     3432     0.00     0.00  simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, datapack_structure_defination*, ann*)
+  0.00      2.53     0.00     3374     0.00     0.00  simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int)
+  0.00      2.53     0.00     2500     0.00     0.00  std::vector<chromosome, std::allocator<chromosome> >::_M_erase(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >)
+  0.00      2.53     0.00     2400     0.00     0.00  genetic_algorithm::chromosome_data_transfer(int, bool, chromosome&, chromosome&)
+  0.00      2.53     0.00     2348     0.00     0.00  core_class::core_class(int, int, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, datapack_structure_defination&)
+  0.00      2.53     0.00     2308     0.00     0.00  segment_class::segment_class(segment_class const&)
+  0.00      2.53     0.00     2305     0.00     0.00  void std::vector<core_class*, std::allocator<core_class*> >::_M_realloc_insert<core_class* const&>(__gnu_cxx::__normal_iterator<core_class**, std::vector<core_class*, std::allocator<core_class*> > >, core_class* const&)
+  0.00      2.53     0.00     2293     0.00     0.00  core_class::set_critical_variable(chromosome)
+  0.00      2.53     0.00     2217     0.00     0.00  core_class::load_training_data_into_core(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&, int&)
+  0.00      2.53     0.00     2137     0.00     0.00  core_class::network_structure_modifier()
+  0.00      2.53     0.00     1970     0.00     0.00  segment_class::clear()
+  0.00      2.53     0.00     1838     0.00     0.00  core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&)
+  0.00      2.53     0.00     1806     0.00     0.01  core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int)
+  0.00      2.53     0.00     1200     0.00     0.00  segment_class::add_f_data(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&)
+  0.00      2.53     0.00     1196     0.00     0.00  std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::operator=(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > const&)
+  0.00      2.53     0.00     1177     0.00     0.00  segment_class::segment_class(int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      2.53     0.00     1099     0.00     0.00  std::vector<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >, std::allocator<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > > >::_M_default_append(unsigned long)
+  0.00      2.53     0.00     1024     0.00     0.00  segment_class::create_cores()
+  0.00      2.53     0.00      819     0.00     0.00  void std::vector<segment_class, std::allocator<segment_class> >::_M_realloc_insert<segment_class const&>(__gnu_cxx::__normal_iterator<segment_class*, std::vector<segment_class, std::allocator<segment_class> > >, segment_class const&)
+  0.00      2.53     0.00      607     0.00     0.00  void std::vector<chromosome, std::allocator<chromosome> >::_M_realloc_insert<chromosome const&>(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, chromosome const&)
+  0.00      2.53     0.00      385     0.00     0.00  void std::__move_median_to_first<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+  0.00      2.53     0.00      292     0.00     0.00  breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      2.53     0.00       51     0.00     0.00  genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&)
+  0.00      2.53     0.00       50     0.00     0.00  genetic_algorithm::save_chromosome(chromosome&)
+  0.00      2.53     0.00       50     0.00     0.35  genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >)
+  0.00      2.53     0.00       50     0.00     0.90  genetic_algorithm::mutation(std::vector<chromosome, std::allocator<chromosome> >&)
+  0.00      2.53     0.00       50     0.00     0.08  genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&)
+  0.00      2.53     0.00       50     0.00     0.00  void std::vector<chromosome, std::allocator<chromosome> >::_M_range_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > > >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, std::forward_iterator_tag)
+  0.00      2.53     0.00       50     0.00     0.00  void std::__insertion_sort<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+  0.00      2.53     0.00       47     0.00     0.00  void std::__adjust_heap<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+  0.00      2.53     0.00       43     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      2.53     0.00       30     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      2.53     0.00       16     0.00     0.00  void std::vector<shuffling_data, std::allocator<shuffling_data> >::_M_realloc_insert<shuffling_data const&>(__gnu_cxx::__normal_iterator<shuffling_data*, std::vector<shuffling_data, std::allocator<shuffling_data> > >, shuffling_data const&)
+  0.00      2.53     0.00       11     0.00     0.00  segment_class::print_message()
+  0.00      2.53     0.00        8     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      2.53     0.00        7     0.00     0.00  void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      2.53     0.00        3     0.00     0.00  core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      2.53     0.00        2     0.00     0.00  shuffler(nn_core_filtered_data*)
+  0.00      2.53     0.00        1     0.00     0.00  _GLOBAL__sub_I__Z6clrscrv
+  0.00      2.53     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN13segment_class20predict_progress_barEv
+  0.00      2.53     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN17genetic_algorithm17get_random_numberEii
+  0.00      2.53     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN23modified_simplex_solver22make_solution_feasible29termination_condition_checkerEPNS_13simplex_tableE
+  0.00      2.53     0.00        1     0.00     0.00  _GLOBAL__sub_I_iterations
+  0.00      2.53     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      2.53     0.00        1     0.00     0.02  data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      2.53     0.00        1     0.00     0.02  prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      2.53     0.00        1     0.00   279.07  start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome)
+  0.00      2.53     0.00        1     0.00     0.00  select_data_file(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+  0.00      2.53     0.00        1     0.00     0.00  datapack_analyzer(nn_core_data_package_class*)
+  0.00      2.53     0.00        1     0.00     0.00  get_no_of_threads()
+  0.00      2.53     0.00        1     0.00     0.02  read_data_from_file(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)
+  0.00      2.53     0.00        1     0.00     0.00  get_critical_variables_from_user(unsigned int&, unsigned int&, unsigned int&)
+  0.00      2.53     0.00        1     0.00     0.00  filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&)
+  0.00      2.53     0.00        1     0.00     0.00  segment_class::save_segment()
+  0.00      2.53     0.00        1     0.00   209.06  segment_class::start_trainer()
+  0.00      2.53     0.00        1     0.00     0.00  segment_class::set_critical_variable(chromosome*)
+  0.00      2.53     0.00        1     0.00    70.00  genetic_algorithm::start_genetic_algorithm(int)
+  0.00      2.53     0.00        1     0.00     3.04  genetic_algorithm::generate_initial_population()
+  0.00      2.53     0.00        1     0.00     0.00  genetic_algorithm::genetic_algorithm(unsigned int&, unsigned int&, unsigned int&, int&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.40% of 2.53 seconds
+
+index % time    self  children    called     name
+                                3966             simplex_solver_data_preparation_class::lp_solver() [1]
+[1]     86.8    0.01    2.19       0+3966    simplex_solver_data_preparation_class::lp_solver() [1]
+                0.08    2.09   14268/14268       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+                0.01    0.00   30887/30887       void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [36]
+                0.01    0.00   22056/23769       void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_range_insert<__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > > >(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::forward_iterator_tag) [37]
+                0.00    0.00    3374/3374        simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.00    0.00    5771/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+                0.00    0.00    4019/7488        std::vector<converted_data_pack, std::allocator<converted_data_pack> >::operator=(std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [45]
+                0.00    0.00    2491/10997       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00   30729/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00   43953/98352       void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+                0.00    0.00   11848/11848       std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&) [87]
+                0.00    0.00    9570/59539       converted_data_pack::~converted_data_pack() [77]
+                0.00    0.00    7054/7054        path_struct::~path_struct() [90]
+                0.00    0.00    4730/4730        void std::vector<path_struct, std::allocator<path_struct> >::_M_realloc_insert<path_struct const&>(__gnu_cxx::__normal_iterator<path_struct*, std::vector<path_struct, std::allocator<path_struct> > >, path_struct const&) [93]
+                0.00    0.00    4096/211200      std::vector<float, std::allocator<float> >::_M_default_append(unsigned long) [67]
+                0.00    0.00    3825/51911       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [78]
+                0.00    0.00    2240/22602       std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [84]
+                                3966             simplex_solver_data_preparation_class::lp_solver() [1]
+-----------------------------------------------
+                                5642             modified_simplex_solver::start_solver(converted_data_pack*) [2]
+                0.08    2.09   14268/14268       simplex_solver_data_preparation_class::lp_solver() [1]
+[2]     85.7    0.08    2.09   14268+5642    modified_simplex_solver::start_solver(converted_data_pack*) [2]
+                0.25    1.68   19335/19335       modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+                0.12    0.00 21947848/22154962     float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&) [12]
+                0.02    0.00  242445/242445      void std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> >::_M_realloc_insert<modified_simplex_solver::id const&>(__gnu_cxx::__normal_iterator<modified_simplex_solver::id*, std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> > >, modified_simplex_solver::id const&) [22]
+                0.01    0.00  962839/962839      std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::push_back(std::vector<float, std::allocator<float> > const&) [30]
+                0.01    0.00  223109/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00  172577/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00  697857/697857      double& std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) [63]
+                0.00    0.00   87553/87553       std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_erase(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >) [74]
+                0.00    0.00   53482/98352       void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+                0.00    0.00   26110/26110       modified_simplex_solver::check_for_corrupt_cdp(converted_data_pack*) [82]
+                0.00    0.00   20362/22602       std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [84]
+                0.00    0.00    2173/59539       converted_data_pack::~converted_data_pack() [77]
+                                5642             modified_simplex_solver::start_solver(converted_data_pack*) [2]
+-----------------------------------------------
+                0.25    1.68   19335/19335       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[3]     76.3    0.25    1.68   19335         modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+                1.35    0.00  194027/194027      modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*) [4]
+                0.20    0.00  197699/197699      void std::__introsort_loop<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [9]
+                0.10    0.00  195587/195587      void std::__insertion_sort<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter) [14]
+                0.02    0.00  201511/201511      modified_simplex_solver::make_solution_feasible::termination_condition_checker(modified_simplex_solver::simplex_table*) [23]
+                0.01    0.00   96186/96186       void std::vector<long double, std::allocator<long double> >::_M_realloc_insert<long double const&>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long double const&) [34]
+                0.00    0.00  211741/211741      modified_simplex_solver::make_solution_feasible::add_index_data(int, int) [66]
+                0.00    0.00  210050/210050      void std::vector<long double, std::allocator<long double> >::_M_range_insert<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > > >(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, std::forward_iterator_tag) [68]
+                0.00    0.00  142044/142044      long double& std::vector<long double, std::allocator<long double> >::emplace_back<long double>(long double&&) [72]
+                0.00    0.00    6877/6877        modified_simplex_solver::make_solution_feasible::conflicting_data_finder(modified_simplex_solver::simplex_table*) [91]
+-----------------------------------------------
+                1.35    0.00  194027/194027      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[4]     53.4    1.35    0.00  194027         modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*) [4]
+                0.00    0.00  206864/22154962     float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&) [12]
+                0.00    0.00    9071/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00  207104/211200      std::vector<float, std::allocator<float> >::_M_default_append(unsigned long) [67]
+-----------------------------------------------
+                                                 <spontaneous>
+[5]     11.0    0.00    0.28                 segment_starter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [5]
+                0.00    0.28       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00       1/1           prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [50]
+                0.00    0.00       2/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+                0.00    0.00       1/1           get_critical_variables_from_user(unsigned int&, unsigned int&, unsigned int&) [135]
+-----------------------------------------------
+                0.00    0.28       1/1           segment_starter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [5]
+[6]     11.0    0.00    0.28       1         start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.21       1/1           segment_class::start_trainer() [7]
+                0.00    0.07       1/1           genetic_algorithm::start_genetic_algorithm(int) [16]
+                0.00    0.00       1/1           filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [54]
+                0.00    0.00       1/1           datapack_analyzer(nn_core_data_package_class*) [55]
+                0.00    0.00       2/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+                0.00    0.00       1/1177        segment_class::segment_class(int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [108]
+                0.00    0.00       1/1196        std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::operator=(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > const&) [107]
+                0.00    0.00       1/1200        segment_class::add_f_data(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [106]
+                0.00    0.00       1/1           segment_class::set_critical_variable(chromosome*) [137]
+                0.00    0.00       1/11          segment_class::print_message() [122]
+                0.00    0.00       1/1970        segment_class::clear() [105]
+                0.00    0.00       1/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00       1/1           genetic_algorithm::genetic_algorithm(unsigned int&, unsigned int&, unsigned int&, int&) [138]
+-----------------------------------------------
+                0.00    0.21       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+[7]      8.3    0.00    0.21       1         segment_class::start_trainer() [7]
+                0.01    0.20       1/1           segment_class::train() [8]
+                0.00    0.00       1/1071        segment_class::split_attributes_for_each_core() [21]
+                0.00    0.00       1/1024        segment_class::create_cores() [110]
+                0.00    0.00       1/1           segment_class::save_segment() [136]
+-----------------------------------------------
+                0.01    0.20       1/1           segment_class::start_trainer() [7]
+[8]      8.3    0.01    0.20       1         segment_class::train() [8]
+                0.01    0.17     871/871         segment_class::testing_for_each_label() [10]
+                0.02    0.00    1070/1071        segment_class::split_attributes_for_each_core() [21]
+                0.00    0.00    2217/2217        core_class::load_training_data_into_core(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&, int&) [103]
+                0.00    0.00    2137/2137        core_class::network_structure_modifier() [104]
+                0.00    0.00    1023/1024        segment_class::create_cores() [110]
+                0.00    0.00     899/1970        segment_class::clear() [105]
+                0.00    0.00       6/11          segment_class::print_message() [122]
+                0.00    0.00       6/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+-----------------------------------------------
+                              643568             void std::__introsort_loop<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [9]
+                0.20    0.00  197699/197699      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[9]      7.9    0.20    0.00  197699+643568  void std::__introsort_loop<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [9]
+                              643568             void std::__introsort_loop<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [9]
+-----------------------------------------------
+                0.01    0.17     871/871         segment_class::train() [8]
+[10]     7.0    0.01    0.17     871         segment_class::testing_for_each_label() [10]
+                0.02    0.15  162349/162349      segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+                0.00    0.00      18/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00       4/11          segment_class::print_message() [122]
+-----------------------------------------------
+                0.02    0.15  162349/162349      segment_class::testing_for_each_label() [10]
+[11]     6.6    0.02    0.15  162349         segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+                0.11    0.01  342770/342770      core_class::propagate(std::vector<float, std::allocator<float> >) [13]
+                0.01    0.01   89752/89752       segment_class::checker_nf(std::vector<neuron, std::allocator<neuron> >&) [24]
+                0.01    0.00  336856/336856      void std::vector<float, std::allocator<float> >::_M_range_insert<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > > >(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, std::forward_iterator_tag) [31]
+                0.00    0.00   13970/13970       segment_class::checker_df(std::vector<neuron, std::allocator<neuron> >&) [46]
+                0.00    0.00  352636/352636      void std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >::_M_realloc_insert<std::vector<neuron, std::allocator<neuron> > >(__gnu_cxx::__normal_iterator<std::vector<neuron, std::allocator<neuron> >*, std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > > >, std::vector<neuron, std::allocator<neuron> >&&) [64]
+                0.00    0.00  158157/158157      segment_class::combine_output_neurons(std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >) [70]
+-----------------------------------------------
+                0.00    0.00       2/22154962     datapack_analyzer(nn_core_data_package_class*) [55]
+                0.00    0.00     248/22154962     breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00  206864/22154962     modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*) [4]
+                0.12    0.00 21947848/22154962     modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[12]     4.7    0.12    0.00 22154962         float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&) [12]
+-----------------------------------------------
+                0.11    0.01  342770/342770      segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+[13]     4.7    0.11    0.01  342770         core_class::propagate(std::vector<float, std::allocator<float> >) [13]
+                0.01    0.00  796605/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+-----------------------------------------------
+                0.10    0.00  195587/195587      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[14]     4.0    0.10    0.00  195587         void std::__insertion_sort<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter) [14]
+-----------------------------------------------
+                0.00    0.00     450/10352       genetic_algorithm::generate_initial_population() [42]
+                0.00    0.00     600/10352       genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&) [40]
+                0.01    0.01    2617/10352       genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >) [25]
+                0.02    0.03    6685/10352       genetic_algorithm::mutation(std::vector<chromosome, std::allocator<chromosome> >&) [18]
+[15]     2.8    0.03    0.04   10352         genetic_algorithm::get_random_number(int, int) [15]
+                0.00    0.04   10352/10352       unsigned long std::uniform_int_distribution<unsigned long>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_int_distribution<unsigned long>::param_type const&) [20]
+                0.00    0.00   10352/12726       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [86]
+-----------------------------------------------
+                0.00    0.07       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+[16]     2.8    0.00    0.07       1         genetic_algorithm::start_genetic_algorithm(int) [16]
+                0.00    0.05      50/50          genetic_algorithm::mutation(std::vector<chromosome, std::allocator<chromosome> >&) [18]
+                0.00    0.02      50/50          genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >) [25]
+                0.00    0.00      50/50          genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&) [40]
+                0.00    0.00       1/1           genetic_algorithm::generate_initial_population() [42]
+                0.00    0.00    2950/3621        void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)>) [96]
+                0.00    0.00      51/51          genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+                0.00    0.00      50/50          void std::vector<chromosome, std::allocator<chromosome> >::_M_range_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > > >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, std::forward_iterator_tag) [116]
+                0.00    0.00      50/98352       void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+                0.00    0.00      50/50          void std::__insertion_sort<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [117]
+                0.00    0.00      50/50          genetic_algorithm::save_chromosome(chromosome&) [115]
+-----------------------------------------------
+                                                 <spontaneous>
+[17]     1.9    0.02    0.03                 core_class::train_core() [17]
+                0.01    0.00    3564/3564        void std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> >::_M_realloc_insert<simplex_solver_data_preparation_class const&>(__gnu_cxx::__normal_iterator<simplex_solver_data_preparation_class*, std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> > >, simplex_solver_data_preparation_class const&) [26]
+                0.00    0.01    1806/1806        core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.00    0.00    3425/6939        simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&) [41]
+                0.00    0.00   46024/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00    1838/1838        core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    3739/10997       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00    3432/3432        simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, datapack_structure_defination*, ann*) [48]
+                0.00    0.00    8195/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00   14125/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00   13769/25636       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                0.00    0.00   10449/10449       simplex_solver_data_preparation_class::~simplex_solver_data_preparation_class() [88]
+                0.00    0.00    7367/7367        std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::~vector() [89]
+                0.00    0.00    5068/51911       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [78]
+                0.00    0.00    3666/3669        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [95]
+                0.00    0.00    1720/59539       converted_data_pack::~converted_data_pack() [77]
+-----------------------------------------------
+                0.00    0.05      50/50          genetic_algorithm::start_genetic_algorithm(int) [16]
+[18]     1.8    0.00    0.05      50         genetic_algorithm::mutation(std::vector<chromosome, std::allocator<chromosome> >&) [18]
+                0.02    0.03    6685/10352       genetic_algorithm::get_random_number(int, int) [15]
+                0.00    0.00     150/34734       void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [80]
+-----------------------------------------------
+                0.04    0.00   10352/10352       unsigned long std::uniform_int_distribution<unsigned long>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_int_distribution<unsigned long>::param_type const&) [20]
+[19]     1.6    0.04    0.00   10352         std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [19]
+-----------------------------------------------
+                0.00    0.04   10352/10352       genetic_algorithm::get_random_number(int, int) [15]
+[20]     1.6    0.00    0.04   10352         unsigned long std::uniform_int_distribution<unsigned long>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_int_distribution<unsigned long>::param_type const&) [20]
+                0.04    0.00   10352/10352       std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [19]
+-----------------------------------------------
+                0.00    0.00       1/1071        segment_class::start_trainer() [7]
+                0.02    0.00    1070/1071        segment_class::train() [8]
+[21]     0.8    0.02    0.00    1071         segment_class::split_attributes_for_each_core() [21]
+                0.00    0.00   44819/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00    5108/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00    6654/6656        void std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::_M_realloc_insert<nn_core_filtered_data const&>(__gnu_cxx::__normal_iterator<nn_core_filtered_data*, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > >, nn_core_filtered_data const&) [92]
+-----------------------------------------------
+                0.02    0.00  242445/242445      modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[22]     0.8    0.02    0.00  242445         void std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> >::_M_realloc_insert<modified_simplex_solver::id const&>(__gnu_cxx::__normal_iterator<modified_simplex_solver::id*, std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> > >, modified_simplex_solver::id const&) [22]
+-----------------------------------------------
+                0.02    0.00  201511/201511      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[23]     0.8    0.02    0.00  201511         modified_simplex_solver::make_solution_feasible::termination_condition_checker(modified_simplex_solver::simplex_table*) [23]
+-----------------------------------------------
+                0.01    0.01   89752/89752       segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+[24]     0.7    0.01    0.01   89752         segment_class::checker_nf(std::vector<neuron, std::allocator<neuron> >&) [24]
+                0.00    0.01  170839/197560      neuron*& std::vector<neuron*, std::allocator<neuron*> >::emplace_back<neuron*>(neuron*&&) [32]
+-----------------------------------------------
+                0.00    0.02      50/50          genetic_algorithm::start_genetic_algorithm(int) [16]
+[25]     0.7    0.00    0.02      50         genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >) [25]
+                0.01    0.01    2617/10352       genetic_algorithm::get_random_number(int, int) [15]
+                0.00    0.00    2500/2500        std::vector<chromosome, std::allocator<chromosome> >::_M_erase(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >) [97]
+                0.00    0.00     300/607         void std::vector<chromosome, std::allocator<chromosome> >::_M_realloc_insert<chromosome const&>(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, chromosome const&) [112]
+-----------------------------------------------
+                0.01    0.00    3564/3564        core_class::train_core() [17]
+[26]     0.5    0.01    0.00    3564         void std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> >::_M_realloc_insert<simplex_solver_data_preparation_class const&>(__gnu_cxx::__normal_iterator<simplex_solver_data_preparation_class*, std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> > >, simplex_solver_data_preparation_class const&) [26]
+                0.00    0.00    3514/6939        simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&) [41]
+-----------------------------------------------
+                0.00    0.01    1806/1806        core_class::train_core() [17]
+[27]     0.5    0.00    0.01    1806         core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.01    0.00    3635/3635        void std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >::_M_realloc_insert<std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&>(__gnu_cxx::__normal_iterator<std::vector<converted_data_pack, std::allocator<converted_data_pack> >*, std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > > >, std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [28]
+                0.00    0.00    2013/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+                0.00    0.00    2035/10997       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00   12314/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00    5051/25636       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                0.00    0.00    4029/4440        std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_erase(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >) [94]
+                0.00    0.00    1797/51911       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [78]
+-----------------------------------------------
+                0.01    0.00    3635/3635        core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+[28]     0.4    0.01    0.00    3635         void std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >::_M_realloc_insert<std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&>(__gnu_cxx::__normal_iterator<std::vector<converted_data_pack, std::allocator<converted_data_pack> >*, std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > > >, std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [28]
+                0.00    0.00    3952/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+-----------------------------------------------
+                0.00    0.00       6/1023785     data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [51]
+                0.00    0.00       6/1023785     prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [50]
+                0.00    0.00    1488/1023785     breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00    5108/1023785     segment_class::split_attributes_for_each_core() [21]
+                0.00    0.00    8195/1023785     core_class::train_core() [17]
+                0.00    0.00    9071/1023785     modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*) [4]
+                0.00    0.00   30729/1023785     simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00  172577/1023785     modified_simplex_solver::start_solver(converted_data_pack*) [2]
+                0.01    0.00  796605/1023785     core_class::propagate(std::vector<float, std::allocator<float> >) [13]
+[29]     0.4    0.01    0.00 1023785         void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+-----------------------------------------------
+                0.01    0.00  962839/962839      modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[30]     0.4    0.01    0.00  962839         std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::push_back(std::vector<float, std::allocator<float> > const&) [30]
+-----------------------------------------------
+                0.01    0.00  336856/336856      segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+[31]     0.4    0.01    0.00  336856         void std::vector<float, std::allocator<float> >::_M_range_insert<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > > >(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, std::forward_iterator_tag) [31]
+-----------------------------------------------
+                0.00    0.00   26721/197560      segment_class::checker_df(std::vector<neuron, std::allocator<neuron> >&) [46]
+                0.00    0.01  170839/197560      segment_class::checker_nf(std::vector<neuron, std::allocator<neuron> >&) [24]
+[32]     0.4    0.00    0.01  197560         neuron*& std::vector<neuron*, std::allocator<neuron*> >::emplace_back<neuron*>(neuron*&&) [32]
+                0.01    0.00  194561/194561      void std::vector<neuron*, std::allocator<neuron*> >::_M_realloc_insert<neuron*>(__gnu_cxx::__normal_iterator<neuron**, std::vector<neuron*, std::allocator<neuron*> > >, neuron*&&) [33]
+-----------------------------------------------
+                0.01    0.00  194561/194561      neuron*& std::vector<neuron*, std::allocator<neuron*> >::emplace_back<neuron*>(neuron*&&) [32]
+[33]     0.4    0.01    0.00  194561         void std::vector<neuron*, std::allocator<neuron*> >::_M_realloc_insert<neuron*>(__gnu_cxx::__normal_iterator<neuron**, std::vector<neuron*, std::allocator<neuron*> > >, neuron*&&) [33]
+-----------------------------------------------
+                0.01    0.00   96186/96186       modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[34]     0.4    0.01    0.00   96186         void std::vector<long double, std::allocator<long double> >::_M_realloc_insert<long double const&>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long double const&) [34]
+-----------------------------------------------
+                0.00    0.00     199/53543       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00     841/53543       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_range_insert<__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, std::forward_iterator_tag) [49]
+                0.00    0.00    1338/53543       simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.00    0.00    2013/53543       core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.00    0.00    3952/53543       void std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >::_M_realloc_insert<std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&>(__gnu_cxx::__normal_iterator<std::vector<converted_data_pack, std::allocator<converted_data_pack> >*, std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > > >, std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [28]
+                0.00    0.00    5771/53543       simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00    7811/53543       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::operator=(std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [45]
+                0.00    0.00   10680/53543       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00   20938/53543       simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&) [41]
+[35]     0.4    0.01    0.00   53543         converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+-----------------------------------------------
+                0.01    0.00   30887/30887       simplex_solver_data_preparation_class::lp_solver() [1]
+[36]     0.4    0.01    0.00   30887         void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [36]
+-----------------------------------------------
+                0.00    0.00    1713/23769       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.01    0.00   22056/23769       simplex_solver_data_preparation_class::lp_solver() [1]
+[37]     0.4    0.01    0.00   23769         void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_range_insert<__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > > >(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::forward_iterator_tag) [37]
+-----------------------------------------------
+                0.00    0.00       8/368247      filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [54]
+                0.00    0.00       9/368247      breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00       9/368247      data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [51]
+                0.00    0.00       9/368247      prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [50]
+                0.00    0.00   44819/368247      segment_class::split_attributes_for_each_core() [21]
+                0.00    0.00   46024/368247      core_class::train_core() [17]
+                0.00    0.00   54260/368247      simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.01    0.00  223109/368247      modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[38]     0.4    0.01    0.00  368247         void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+-----------------------------------------------
+                                                 <spontaneous>
+[39]     0.2    0.01    0.00                 std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (simplex_solver_data_preparation_class::*)(), simplex_solver_data_preparation_class> > >::_M_run() [39]
+-----------------------------------------------
+                0.00    0.00      50/50          genetic_algorithm::start_genetic_algorithm(int) [16]
+[40]     0.2    0.00    0.00      50         genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&) [40]
+                0.00    0.00     600/10352       genetic_algorithm::get_random_number(int, int) [15]
+                0.00    0.00    2400/2400        genetic_algorithm::chromosome_data_transfer(int, bool, chromosome&, chromosome&) [98]
+                0.00    0.00     300/607         void std::vector<chromosome, std::allocator<chromosome> >::_M_realloc_insert<chromosome const&>(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, chromosome const&) [112]
+-----------------------------------------------
+                0.00    0.00    3425/6939        core_class::train_core() [17]
+                0.00    0.00    3514/6939        void std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> >::_M_realloc_insert<simplex_solver_data_preparation_class const&>(__gnu_cxx::__normal_iterator<simplex_solver_data_preparation_class*, std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> > >, simplex_solver_data_preparation_class const&) [26]
+[41]     0.2    0.00    0.00    6939         simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&) [41]
+                0.00    0.00   20938/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+                0.00    0.00   19866/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           genetic_algorithm::start_genetic_algorithm(int) [16]
+[42]     0.1    0.00    0.00       1         genetic_algorithm::generate_initial_population() [42]
+                0.00    0.00     450/10352       genetic_algorithm::get_random_number(int, int) [15]
+                0.00    0.00       7/607         void std::vector<chromosome, std::allocator<chromosome> >::_M_realloc_insert<chromosome const&>(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, chromosome const&) [112]
+-----------------------------------------------
+                0.00    0.00    3374/3374        simplex_solver_data_preparation_class::lp_solver() [1]
+[43]     0.1    0.00    0.00    3374         simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.00    0.00   54260/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00    2103/10997       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00    1338/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+                0.00    0.00   26750/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+                0.00    0.00   13534/14375       std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::operator=(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&) [85]
+                0.00    0.00   10328/59539       converted_data_pack::~converted_data_pack() [77]
+-----------------------------------------------
+                0.00    0.00     629/10997       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    2035/10997       core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.00    0.00    2103/10997       simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.00    0.00    2491/10997       simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00    3739/10997       core_class::train_core() [17]
+[44]     0.1    0.00    0.00   10997         void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00   10680/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+-----------------------------------------------
+                0.00    0.00    3469/7488        simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, datapack_structure_defination*, ann*) [48]
+                0.00    0.00    4019/7488        simplex_solver_data_preparation_class::lp_solver() [1]
+[45]     0.1    0.00    0.00    7488         std::vector<converted_data_pack, std::allocator<converted_data_pack> >::operator=(std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [45]
+                0.00    0.00    7811/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+-----------------------------------------------
+                0.00    0.00   13970/13970       segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+[46]     0.1    0.00    0.00   13970         segment_class::checker_df(std::vector<neuron, std::allocator<neuron> >&) [46]
+                0.00    0.00   26721/197560      neuron*& std::vector<neuron*, std::allocator<neuron*> >::emplace_back<neuron*>(neuron*&&) [32]
+-----------------------------------------------
+                0.00    0.00    1838/1838        core_class::train_core() [17]
+[47]     0.0    0.00    0.00    1838         core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    1713/23769       void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_range_insert<__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > > >(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::forward_iterator_tag) [37]
+                0.00    0.00    3635/3635        void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_range_insert<__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, std::forward_iterator_tag) [49]
+                0.00    0.00     629/10997       void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [44]
+                0.00    0.00     199/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+                0.00    0.00    7053/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00    6816/25636       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+                0.00    0.00    4261/59539       converted_data_pack::~converted_data_pack() [77]
+                0.00    0.00    1835/51911       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [78]
+                0.00    0.00    1737/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+                0.00    0.00     867/98352       void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+                0.00    0.00     841/14375       std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::operator=(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&) [85]
+                0.00    0.00     411/4440        std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_erase(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >) [94]
+-----------------------------------------------
+                0.00    0.00    3432/3432        core_class::train_core() [17]
+[48]     0.0    0.00    0.00    3432         simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, datapack_structure_defination*, ann*) [48]
+                0.00    0.00    3469/7488        std::vector<converted_data_pack, std::allocator<converted_data_pack> >::operator=(std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [45]
+-----------------------------------------------
+                0.00    0.00    3635/3635        core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+[49]     0.0    0.00    0.00    3635         void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_range_insert<__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, std::forward_iterator_tag) [49]
+                0.00    0.00     841/53543       converted_data_pack::converted_data_pack(converted_data_pack const&) [35]
+-----------------------------------------------
+                0.00    0.00       1/1           segment_starter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [5]
+[50]     0.0    0.00    0.00       1         prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [50]
+                0.00    0.00       1/1           data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [51]
+                0.00    0.00       9/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00       6/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00       1/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [50]
+[51]     0.0    0.00    0.00       1         data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [51]
+                0.00    0.00       1/1           read_data_from_file(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+                0.00    0.00       9/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00       6/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00       1/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00     292/292         read_data_from_file(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+[52]     0.0    0.00    0.00     292         breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00    1488/1023785     void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&) [29]
+                0.00    0.00     248/22154962     float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&) [12]
+                0.00    0.00       9/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00     292/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [51]
+[53]     0.0    0.00    0.00       1         read_data_from_file(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+                0.00    0.00     292/292         breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00     292/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+[54]     0.0    0.00    0.00       1         filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [54]
+                0.00    0.00       8/368247      void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&) [38]
+                0.00    0.00       2/2           shuffler(nn_core_filtered_data*) [126]
+                0.00    0.00       2/6656        void std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::_M_realloc_insert<nn_core_filtered_data const&>(__gnu_cxx::__normal_iterator<nn_core_filtered_data*, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > >, nn_core_filtered_data const&) [92]
+-----------------------------------------------
+                0.00    0.00       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+[55]     0.0    0.00    0.00       1         datapack_analyzer(nn_core_data_package_class*) [55]
+                0.00    0.00       2/22154962     float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&) [12]
+                0.00    0.00       2/34734       void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [80]
+-----------------------------------------------
+                0.00    0.00  697857/697857      modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[63]     0.0    0.00    0.00  697857         double& std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) [63]
+                0.00    0.00  171753/171753      void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) [69]
+-----------------------------------------------
+                0.00    0.00  352636/352636      segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+[64]     0.0    0.00    0.00  352636         void std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >::_M_realloc_insert<std::vector<neuron, std::allocator<neuron> > >(__gnu_cxx::__normal_iterator<std::vector<neuron, std::allocator<neuron> >*, std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > > >, std::vector<neuron, std::allocator<neuron> >&&) [64]
+-----------------------------------------------
+                0.00    0.00  269010/269010      modified_simplex_solver::make_solution_feasible::add_index_data(int, int) [66]
+[65]     0.0    0.00    0.00  269010         std::vector<int, std::allocator<int> >::_M_erase(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) [65]
+-----------------------------------------------
+                0.00    0.00  211741/211741      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[66]     0.0    0.00    0.00  211741         modified_simplex_solver::make_solution_feasible::add_index_data(int, int) [66]
+                0.00    0.00  269010/269010      std::vector<int, std::allocator<int> >::_M_erase(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) [65]
+                0.00    0.00   24282/34734       void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [80]
+-----------------------------------------------
+                0.00    0.00    4096/211200      simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00  207104/211200      modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*) [4]
+[67]     0.0    0.00    0.00  211200         std::vector<float, std::allocator<float> >::_M_default_append(unsigned long) [67]
+-----------------------------------------------
+                0.00    0.00  210050/210050      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[68]     0.0    0.00    0.00  210050         void std::vector<long double, std::allocator<long double> >::_M_range_insert<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > > >(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, std::forward_iterator_tag) [68]
+-----------------------------------------------
+                0.00    0.00  171753/171753      double& std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) [63]
+[69]     0.0    0.00    0.00  171753         void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) [69]
+-----------------------------------------------
+                0.00    0.00  158157/158157      segment_class::propagate(std::vector<float, std::allocator<float> >) [11]
+[70]     0.0    0.00    0.00  158157         segment_class::combine_output_neurons(std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >) [70]
+                0.00    0.00  149601/153981      std::vector<neuron, std::allocator<neuron> >::_M_default_append(unsigned long) [71]
+-----------------------------------------------
+                0.00    0.00    4380/153981      core_class::network_structure_modifier() [104]
+                0.00    0.00  149601/153981      segment_class::combine_output_neurons(std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >) [70]
+[71]     0.0    0.00    0.00  153981         std::vector<neuron, std::allocator<neuron> >::_M_default_append(unsigned long) [71]
+-----------------------------------------------
+                0.00    0.00  142044/142044      modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[72]     0.0    0.00    0.00  142044         long double& std::vector<long double, std::allocator<long double> >::emplace_back<long double>(long double&&) [72]
+-----------------------------------------------
+                                 385             void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+                0.00    0.00      50/98352       genetic_algorithm::start_genetic_algorithm(int) [16]
+                0.00    0.00     867/98352       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00   43953/98352       simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00   53482/98352       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[73]     0.0    0.00    0.00   98352+385     void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+                0.00    0.00   15298/27961       genetic_algorithm::comparator(chromosome, chromosome) [81]
+                0.00    0.00     385/385         void std::__move_median_to_first<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [113]
+                0.00    0.00      47/47          void std::__adjust_heap<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [118]
+                                 385             void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+-----------------------------------------------
+                0.00    0.00   87553/87553       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[74]     0.0    0.00    0.00   87553         std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_erase(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >) [74]
+-----------------------------------------------
+                0.00    0.00       2/83298       start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00     248/83298       shuffler(nn_core_filtered_data*) [126]
+                0.00    0.00    1191/83298       genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+                0.00    0.00    1737/83298       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    2342/83298       segment_class::create_cores() [110]
+                0.00    0.00    2354/83298       core_class::core_class(int, int, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, datapack_structure_defination&) [99]
+                0.00    0.00   26750/83298       simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.00    0.00   48674/83298       std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::operator=(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&) [85]
+[75]     0.0    0.00    0.00   83298         std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+-----------------------------------------------
+                0.00    0.00       1/66728       data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [51]
+                0.00    0.00       1/66728       prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [50]
+                0.00    0.00       2/66728       segment_starter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [5]
+                0.00    0.00       8/66728       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [123]
+                0.00    0.00       9/66728       segment_class::save_segment() [136]
+                0.00    0.00     292/66728       breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [52]
+                0.00    0.00     292/66728       read_data_from_file(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [53]
+                0.00    0.00    9245/66728       segment_class::segment_class(segment_class const&) [100]
+                0.00    0.00   19866/66728       simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&) [41]
+                0.00    0.00   37012/66728       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+[76]     0.0    0.00    0.00   66728         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00    1720/59539       core_class::train_core() [17]
+                0.00    0.00    2173/59539       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+                0.00    0.00    4234/59539       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_erase(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >) [94]
+                0.00    0.00    4261/59539       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    6957/59539       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (simplex_solver_data_preparation_class::*)(), simplex_solver_data_preparation_class> > >::~_State_impl() [199]
+                0.00    0.00    9570/59539       simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00   10328/59539       simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+                0.00    0.00   20296/59539       simplex_solver_data_preparation_class::~simplex_solver_data_preparation_class() [88]
+[77]     0.0    0.00    0.00   59539         converted_data_pack::~converted_data_pack() [77]
+-----------------------------------------------
+                0.00    0.00    1797/51911       core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.00    0.00    1835/51911       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    3825/51911       simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00    5068/51911       core_class::train_core() [17]
+                0.00    0.00    9578/51911       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (simplex_solver_data_preparation_class::*)(), simplex_solver_data_preparation_class> > >::~_State_impl() [199]
+                0.00    0.00   29808/51911       simplex_solver_data_preparation_class::~simplex_solver_data_preparation_class() [88]
+[78]     0.0    0.00    0.00   51911         std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [78]
+-----------------------------------------------
+                0.00    0.00       1/35915       start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00       6/35915       segment_class::train() [8]
+                0.00    0.00       8/35915       segment_class::save_segment() [136]
+                0.00    0.00      18/35915       segment_class::testing_for_each_label() [10]
+                0.00    0.00      41/35915       core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [125]
+                0.00    0.00    2349/35915       segment_class::create_cores() [110]
+                0.00    0.00    7053/35915       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00   12314/35915       core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.00    0.00   14125/35915       core_class::train_core() [17]
+[79]     0.0    0.00    0.00   35915         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00   37012/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       2/34734       datapack_analyzer(nn_core_data_package_class*) [55]
+                0.00    0.00     150/34734       genetic_algorithm::mutation(std::vector<chromosome, std::allocator<chromosome> >&) [18]
+                0.00    0.00   10300/34734       modified_simplex_solver::make_solution_feasible::conflicting_data_finder(modified_simplex_solver::simplex_table*) [91]
+                0.00    0.00   24282/34734       modified_simplex_solver::make_solution_feasible::add_index_data(int, int) [66]
+[80]     0.0    0.00    0.00   34734         void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [80]
+-----------------------------------------------
+                0.00    0.00     162/27961       void std::__adjust_heap<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [118]
+                0.00    0.00     750/27961       void std::__insertion_sort<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [117]
+                0.00    0.00    1025/27961       void std::__move_median_to_first<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [113]
+                0.00    0.00   10726/27961       void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)>) [96]
+                0.00    0.00   15298/27961       void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+[81]     0.0    0.00    0.00   27961         genetic_algorithm::comparator(chromosome, chromosome) [81]
+-----------------------------------------------
+                0.00    0.00   26110/26110       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[82]     0.0    0.00    0.00   26110         modified_simplex_solver::check_for_corrupt_cdp(converted_data_pack*) [82]
+-----------------------------------------------
+                0.00    0.00    5051/25636       core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+                0.00    0.00    6816/25636       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00   13769/25636       core_class::train_core() [17]
+[83]     0.0    0.00    0.00   25636         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [83]
+-----------------------------------------------
+                0.00    0.00    2240/22602       simplex_solver_data_preparation_class::lp_solver() [1]
+                0.00    0.00   20362/22602       modified_simplex_solver::start_solver(converted_data_pack*) [2]
+[84]     0.0    0.00    0.00   22602         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [84]
+-----------------------------------------------
+                0.00    0.00     841/14375       core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00   13534/14375       simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [43]
+[85]     0.0    0.00    0.00   14375         std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::operator=(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&) [85]
+                0.00    0.00   48674/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+-----------------------------------------------
+                0.00    0.00       2/12726       segment_class::save_segment() [136]
+                0.00    0.00    1182/12726       segment_class::segment_class(int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [108]
+                0.00    0.00    1190/12726       genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+                0.00    0.00   10352/12726       genetic_algorithm::get_random_number(int, int) [15]
+[86]     0.0    0.00    0.00   12726         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [86]
+-----------------------------------------------
+                0.00    0.00   11848/11848       simplex_solver_data_preparation_class::lp_solver() [1]
+[87]     0.0    0.00    0.00   11848         std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&) [87]
+-----------------------------------------------
+                0.00    0.00   10449/10449       core_class::train_core() [17]
+[88]     0.0    0.00    0.00   10449         simplex_solver_data_preparation_class::~simplex_solver_data_preparation_class() [88]
+                0.00    0.00   29808/51911       std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [78]
+                0.00    0.00   20296/59539       converted_data_pack::~converted_data_pack() [77]
+-----------------------------------------------
+                0.00    0.00    7367/7367        core_class::train_core() [17]
+[89]     0.0    0.00    0.00    7367         std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::~vector() [89]
+-----------------------------------------------
+                0.00    0.00    7054/7054        simplex_solver_data_preparation_class::lp_solver() [1]
+[90]     0.0    0.00    0.00    7054         path_struct::~path_struct() [90]
+-----------------------------------------------
+                0.00    0.00    6877/6877        modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [3]
+[91]     0.0    0.00    0.00    6877         modified_simplex_solver::make_solution_feasible::conflicting_data_finder(modified_simplex_solver::simplex_table*) [91]
+                0.00    0.00   10300/34734       void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [80]
+-----------------------------------------------
+                0.00    0.00       2/6656        filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [54]
+                0.00    0.00    6654/6656        segment_class::split_attributes_for_each_core() [21]
+[92]     0.0    0.00    0.00    6656         void std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::_M_realloc_insert<nn_core_filtered_data const&>(__gnu_cxx::__normal_iterator<nn_core_filtered_data*, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > >, nn_core_filtered_data const&) [92]
+-----------------------------------------------
+                0.00    0.00    4730/4730        simplex_solver_data_preparation_class::lp_solver() [1]
+[93]     0.0    0.00    0.00    4730         void std::vector<path_struct, std::allocator<path_struct> >::_M_realloc_insert<path_struct const&>(__gnu_cxx::__normal_iterator<path_struct*, std::vector<path_struct, std::allocator<path_struct> > >, path_struct const&) [93]
+-----------------------------------------------
+                0.00    0.00     411/4440        core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [47]
+                0.00    0.00    4029/4440        core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [27]
+[94]     0.0    0.00    0.00    4440         std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_erase(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >) [94]
+                0.00    0.00    4234/59539       converted_data_pack::~converted_data_pack() [77]
+-----------------------------------------------
+                0.00    0.00       3/3669        core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [125]
+                0.00    0.00    3666/3669        core_class::train_core() [17]
+[95]     0.0    0.00    0.00    3669         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [95]
+-----------------------------------------------
+                0.00    0.00     671/3621        void std::__insertion_sort<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [117]
+                0.00    0.00    2950/3621        genetic_algorithm::start_genetic_algorithm(int) [16]
+[96]     0.0    0.00    0.00    3621         void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)>) [96]
+                0.00    0.00   10726/27961       genetic_algorithm::comparator(chromosome, chromosome) [81]
+-----------------------------------------------
+                0.00    0.00    2500/2500        genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >) [25]
+[97]     0.0    0.00    0.00    2500         std::vector<chromosome, std::allocator<chromosome> >::_M_erase(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >) [97]
+-----------------------------------------------
+                0.00    0.00    2400/2400        genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&) [40]
+[98]     0.0    0.00    0.00    2400         genetic_algorithm::chromosome_data_transfer(int, bool, chromosome&, chromosome&) [98]
+-----------------------------------------------
+                0.00    0.00    2348/2348        segment_class::create_cores() [110]
+[99]     0.0    0.00    0.00    2348         core_class::core_class(int, int, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, datapack_structure_defination&) [99]
+                0.00    0.00    2354/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+-----------------------------------------------
+                0.00    0.00     805/2308        void std::vector<segment_class, std::allocator<segment_class> >::_M_realloc_insert<segment_class const&>(__gnu_cxx::__normal_iterator<segment_class*, std::vector<segment_class, std::allocator<segment_class> > >, segment_class const&) [111]
+                0.00    0.00    1503/2308        genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+[100]    0.0    0.00    0.00    2308         segment_class::segment_class(segment_class const&) [100]
+                0.00    0.00    9245/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00    2305/2305        segment_class::create_cores() [110]
+[101]    0.0    0.00    0.00    2305         void std::vector<core_class*, std::allocator<core_class*> >::_M_realloc_insert<core_class* const&>(__gnu_cxx::__normal_iterator<core_class**, std::vector<core_class*, std::allocator<core_class*> > >, core_class* const&) [101]
+-----------------------------------------------
+                0.00    0.00    2293/2293        segment_class::create_cores() [110]
+[102]    0.0    0.00    0.00    2293         core_class::set_critical_variable(chromosome) [102]
+-----------------------------------------------
+                0.00    0.00    2217/2217        segment_class::train() [8]
+[103]    0.0    0.00    0.00    2217         core_class::load_training_data_into_core(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&, int&) [103]
+-----------------------------------------------
+                0.00    0.00    2137/2137        segment_class::train() [8]
+[104]    0.0    0.00    0.00    2137         core_class::network_structure_modifier() [104]
+                0.00    0.00    4380/153981      std::vector<neuron, std::allocator<neuron> >::_M_default_append(unsigned long) [71]
+-----------------------------------------------
+                0.00    0.00       1/1970        start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00       1/1970        segment_class::save_segment() [136]
+                0.00    0.00     899/1970        segment_class::train() [8]
+                0.00    0.00    1069/1970        genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+[105]    0.0    0.00    0.00    1970         segment_class::clear() [105]
+-----------------------------------------------
+                0.00    0.00       1/1200        start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00    1199/1200        genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+[106]    0.0    0.00    0.00    1200         segment_class::add_f_data(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [106]
+-----------------------------------------------
+                0.00    0.00       1/1196        start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00    1195/1196        genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+[107]    0.0    0.00    0.00    1196         std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::operator=(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > const&) [107]
+-----------------------------------------------
+                0.00    0.00       1/1177        start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00    1176/1177        genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+[108]    0.0    0.00    0.00    1177         segment_class::segment_class(int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [108]
+                0.00    0.00    1182/12726       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [86]
+-----------------------------------------------
+                0.00    0.00    1099/1099        segment_class::create_cores() [110]
+[109]    0.0    0.00    0.00    1099         std::vector<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >, std::allocator<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > > >::_M_default_append(unsigned long) [109]
+-----------------------------------------------
+                0.00    0.00       1/1024        segment_class::start_trainer() [7]
+                0.00    0.00    1023/1024        segment_class::train() [8]
+[110]    0.0    0.00    0.00    1024         segment_class::create_cores() [110]
+                0.00    0.00    2349/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00    2348/2348        core_class::core_class(int, int, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, datapack_structure_defination&) [99]
+                0.00    0.00    2342/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+                0.00    0.00    2305/2305        void std::vector<core_class*, std::allocator<core_class*> >::_M_realloc_insert<core_class* const&>(__gnu_cxx::__normal_iterator<core_class**, std::vector<core_class*, std::allocator<core_class*> > >, core_class* const&) [101]
+                0.00    0.00    2293/2293        core_class::set_critical_variable(chromosome) [102]
+                0.00    0.00    1099/1099        std::vector<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >, std::allocator<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > > >::_M_default_append(unsigned long) [109]
+-----------------------------------------------
+                0.00    0.00     819/819         genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+[111]    0.0    0.00    0.00     819         void std::vector<segment_class, std::allocator<segment_class> >::_M_realloc_insert<segment_class const&>(__gnu_cxx::__normal_iterator<segment_class*, std::vector<segment_class, std::allocator<segment_class> > >, segment_class const&) [111]
+                0.00    0.00     805/2308        segment_class::segment_class(segment_class const&) [100]
+-----------------------------------------------
+                0.00    0.00       7/607         genetic_algorithm::generate_initial_population() [42]
+                0.00    0.00     300/607         genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&) [40]
+                0.00    0.00     300/607         genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >) [25]
+[112]    0.0    0.00    0.00     607         void std::vector<chromosome, std::allocator<chromosome> >::_M_realloc_insert<chromosome const&>(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, chromosome const&) [112]
+-----------------------------------------------
+                0.00    0.00     385/385         void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+[113]    0.0    0.00    0.00     385         void std::__move_median_to_first<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [113]
+                0.00    0.00    1025/27961       genetic_algorithm::comparator(chromosome, chromosome) [81]
+-----------------------------------------------
+                0.00    0.00      51/51          genetic_algorithm::start_genetic_algorithm(int) [16]
+[114]    0.0    0.00    0.00      51         genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [114]
+                0.00    0.00    1503/2308        segment_class::segment_class(segment_class const&) [100]
+                0.00    0.00    1199/1200        segment_class::add_f_data(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [106]
+                0.00    0.00    1195/1196        std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::operator=(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > const&) [107]
+                0.00    0.00    1191/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+                0.00    0.00    1190/12726       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [86]
+                0.00    0.00    1176/1177        segment_class::segment_class(int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [108]
+                0.00    0.00    1069/1970        segment_class::clear() [105]
+                0.00    0.00     819/819         void std::vector<segment_class, std::allocator<segment_class> >::_M_realloc_insert<segment_class const&>(__gnu_cxx::__normal_iterator<segment_class*, std::vector<segment_class, std::allocator<segment_class> > >, segment_class const&) [111]
+-----------------------------------------------
+                0.00    0.00      50/50          genetic_algorithm::start_genetic_algorithm(int) [16]
+[115]    0.0    0.00    0.00      50         genetic_algorithm::save_chromosome(chromosome&) [115]
+-----------------------------------------------
+                0.00    0.00      50/50          genetic_algorithm::start_genetic_algorithm(int) [16]
+[116]    0.0    0.00    0.00      50         void std::vector<chromosome, std::allocator<chromosome> >::_M_range_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > > >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, std::forward_iterator_tag) [116]
+-----------------------------------------------
+                0.00    0.00      50/50          genetic_algorithm::start_genetic_algorithm(int) [16]
+[117]    0.0    0.00    0.00      50         void std::__insertion_sort<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [117]
+                0.00    0.00     750/27961       genetic_algorithm::comparator(chromosome, chromosome) [81]
+                0.00    0.00     671/3621        void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)>) [96]
+-----------------------------------------------
+                0.00    0.00      47/47          void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [73]
+[118]    0.0    0.00    0.00      47         void std::__adjust_heap<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>) [118]
+                0.00    0.00     162/27961       genetic_algorithm::comparator(chromosome, chromosome) [81]
+-----------------------------------------------
+                0.00    0.00      43/43          menu(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [144]
+[119]    0.0    0.00    0.00      43         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [119]
+                0.00    0.00       7/7           void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [124]
+-----------------------------------------------
+                0.00    0.00       4/30          segment_class::save_segment() [136]
+                0.00    0.00      26/30          core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [125]
+[120]    0.0    0.00    0.00      30         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [120]
+-----------------------------------------------
+                0.00    0.00      16/16          shuffler(nn_core_filtered_data*) [126]
+[121]    0.0    0.00    0.00      16         void std::vector<shuffling_data, std::allocator<shuffling_data> >::_M_realloc_insert<shuffling_data const&>(__gnu_cxx::__normal_iterator<shuffling_data*, std::vector<shuffling_data, std::allocator<shuffling_data> > >, shuffling_data const&) [121]
+-----------------------------------------------
+                0.00    0.00       1/11          start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+                0.00    0.00       4/11          segment_class::testing_for_each_label() [10]
+                0.00    0.00       6/11          segment_class::train() [8]
+[122]    0.0    0.00    0.00      11         segment_class::print_message() [122]
+-----------------------------------------------
+                0.00    0.00       2/8           segment_class::save_segment() [136]
+                0.00    0.00       6/8           core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [125]
+[123]    0.0    0.00    0.00       8         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [123]
+                0.00    0.00       8/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+-----------------------------------------------
+                0.00    0.00       7/7           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [119]
+[124]    0.0    0.00    0.00       7         void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [124]
+-----------------------------------------------
+                0.00    0.00       3/3           segment_class::save_segment() [136]
+[125]    0.0    0.00    0.00       3         core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [125]
+                0.00    0.00      41/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00      26/30          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [120]
+                0.00    0.00       6/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [123]
+                0.00    0.00       3/3669        std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [95]
+-----------------------------------------------
+                0.00    0.00       2/2           filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [54]
+[126]    0.0    0.00    0.00       2         shuffler(nn_core_filtered_data*) [126]
+                0.00    0.00     248/83298       std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&) [75]
+                0.00    0.00      16/16          void std::vector<shuffling_data, std::allocator<shuffling_data> >::_M_realloc_insert<shuffling_data const&>(__gnu_cxx::__normal_iterator<shuffling_data*, std::vector<shuffling_data, std::allocator<shuffling_data> > >, shuffling_data const&) [121]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [215]
+[127]    0.0    0.00    0.00       1         _GLOBAL__sub_I__Z6clrscrv [127]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [215]
+[128]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN13segment_class20predict_progress_barEv [128]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [215]
+[129]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN17genetic_algorithm17get_random_numberEii [129]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [215]
+[130]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN23modified_simplex_solver22make_solution_feasible29termination_condition_checkerEPNS_13simplex_tableE [130]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [215]
+[131]    0.0    0.00    0.00       1         _GLOBAL__sub_I_iterations [131]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [215]
+[132]    0.0    0.00    0.00       1         _GLOBAL__sub_I_main [132]
+-----------------------------------------------
+                0.00    0.00       1/1           menu(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [144]
+[133]    0.0    0.00    0.00       1         select_data_file(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) [133]
+-----------------------------------------------
+                0.00    0.00       1/1           menu(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [144]
+[134]    0.0    0.00    0.00       1         get_no_of_threads() [134]
+-----------------------------------------------
+                0.00    0.00       1/1           segment_starter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int&) [5]
+[135]    0.0    0.00    0.00       1         get_critical_variables_from_user(unsigned int&, unsigned int&, unsigned int&) [135]
+-----------------------------------------------
+                0.00    0.00       1/1           segment_class::start_trainer() [7]
+[136]    0.0    0.00    0.00       1         segment_class::save_segment() [136]
+                0.00    0.00       9/66728       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [76]
+                0.00    0.00       8/35915       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [79]
+                0.00    0.00       4/30          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [120]
+                0.00    0.00       3/3           core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [125]
+                0.00    0.00       2/12726       void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [86]
+                0.00    0.00       2/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [123]
+                0.00    0.00       1/1970        segment_class::clear() [105]
+-----------------------------------------------
+                0.00    0.00       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+[137]    0.0    0.00    0.00       1         segment_class::set_critical_variable(chromosome*) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [6]
+[138]    0.0    0.00    0.00       1         genetic_algorithm::genetic_algorithm(unsigned int&, unsigned int&, unsigned int&, int&) [138]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [127] _GLOBAL__sub_I__Z6clrscrv [115] genetic_algorithm::save_chromosome(chromosome&) [119] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ [128] _GLOBAL__sub_I__ZN13segment_class20predict_progress_barEv [15] genetic_algorithm::get_random_number(int, int) [124] void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ [129] _GLOBAL__sub_I__ZN17genetic_algorithm17get_random_numberEii [25] genetic_algorithm::tournament_selection(std::vector<chromosome, std::allocator<chromosome> >) [101] void std::vector<core_class*, std::allocator<core_class*> >::_M_realloc_insert<core_class* const&>(__gnu_cxx::__normal_iterator<core_class**, std::vector<core_class*, std::allocator<core_class*> > >, core_class* const&)
+ [130] _GLOBAL__sub_I__ZN23modified_simplex_solver22make_solution_feasible29termination_condition_checkerEPNS_13simplex_tableE [114] genetic_algorithm::calc_fitness_threaded(int, std::vector<chromosome, std::allocator<chromosome> >&) [32] neuron*& std::vector<neuron*, std::allocator<neuron*> >::emplace_back<neuron*>(neuron*&&)
+ [131] _GLOBAL__sub_I_iterations [16] genetic_algorithm::start_genetic_algorithm(int) [33] void std::vector<neuron*, std::allocator<neuron*> >::_M_realloc_insert<neuron*>(__gnu_cxx::__normal_iterator<neuron**, std::vector<neuron*, std::allocator<neuron*> > >, neuron*&&)
+ [132] _GLOBAL__sub_I_main    [98] genetic_algorithm::chromosome_data_transfer(int, bool, chromosome&, chromosome&) [28] void std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >::_M_realloc_insert<std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&>(__gnu_cxx::__normal_iterator<std::vector<converted_data_pack, std::allocator<converted_data_pack> >*, std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > > >, std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&)
+  [51] data_filter(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [42] genetic_algorithm::generate_initial_population() [109] std::vector<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >, std::allocator<std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > > >::_M_default_append(unsigned long)
+  [50] prepare_data(nn_core_data_package_class*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [18] genetic_algorithm::mutation(std::vector<chromosome, std::allocator<chromosome> >&) [64] void std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >::_M_realloc_insert<std::vector<neuron, std::allocator<neuron> > >(__gnu_cxx::__normal_iterator<std::vector<neuron, std::allocator<neuron> >*, std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > > >, std::vector<neuron, std::allocator<neuron> >&&)
+   [6] start_segment(int, int, nn_core_data_package_class&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, chromosome) [40] genetic_algorithm::crossover(std::vector<chromosome, std::allocator<chromosome> >&) [37] void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_range_insert<__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > > >(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, __gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::forward_iterator_tag)
+ [133] select_data_file(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) [138] genetic_algorithm::genetic_algorithm(unsigned int&, unsigned int&, unsigned int&, int&) [38] void std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_realloc_insert<std::vector<float, std::allocator<float> > const&>(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >, std::vector<float, std::allocator<float> > const&)
+  [55] datapack_analyzer(nn_core_data_package_class*) [35] converted_data_pack::converted_data_pack(converted_data_pack const&) [74] std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::_M_erase(__gnu_cxx::__normal_iterator<std::vector<float, std::allocator<float> >*, std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > >)
+ [134] get_no_of_threads()    [77] converted_data_pack::~converted_data_pack() [30] std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::push_back(std::vector<float, std::allocator<float> > const&)
+  [53] read_data_from_file(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [2] modified_simplex_solver::start_solver(converted_data_pack*) [89] std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::~vector()
+ [135] get_critical_variables_from_user(unsigned int&, unsigned int&, unsigned int&) [82] modified_simplex_solver::check_for_corrupt_cdp(converted_data_pack*) [85] std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >::operator=(std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > const&)
+  [54] filter(nn_core_data_package_class&, datapack_structure_defination, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [66] modified_simplex_solver::make_solution_feasible::add_index_data(int, int) [63] double& std::vector<double, std::allocator<double> >::emplace_back<double>(double&&)
+  [52] breaker(raw_data*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [3] modified_simplex_solver::make_solution_feasible::pivot_element_finder(modified_simplex_solver::simplex_table*) [69] void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&)
+ [126] shuffler(nn_core_filtered_data*) [4] modified_simplex_solver::make_solution_feasible::simplex_table_modifier(int, int, modified_simplex_solver::simplex_table*) [72] long double& std::vector<long double, std::allocator<long double> >::emplace_back<long double>(long double&&)
+  [17] core_class::train_core() [91] modified_simplex_solver::make_solution_feasible::conflicting_data_finder(modified_simplex_solver::simplex_table*) [68] void std::vector<long double, std::allocator<long double> >::_M_range_insert<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > > >(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, std::forward_iterator_tag)
+ [102] core_class::set_critical_variable(chromosome) [23] modified_simplex_solver::make_solution_feasible::termination_condition_checker(modified_simplex_solver::simplex_table*) [34] void std::vector<long double, std::allocator<long double> >::_M_realloc_insert<long double const&>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long double const&)
+  [47] core_class::big_c_datapack_handler(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&) [43] simplex_solver_data_preparation_class::cdp_spliter(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [12] float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&)
+ [104] core_class::network_structure_modifier() [1] simplex_solver_data_preparation_class::lp_solver() [31] void std::vector<float, std::allocator<float> >::_M_range_insert<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > > >(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, std::forward_iterator_tag)
+ [103] core_class::load_training_data_into_core(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&, int&) [41] simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(simplex_solver_data_preparation_class const&) [67] std::vector<float, std::allocator<float> >::_M_default_append(unsigned long)
+  [27] core_class::c_data_packs_division_for_multi_threading(std::vector<std::vector<converted_data_pack, std::allocator<converted_data_pack> >, std::allocator<std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >&, std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, int) [48] simplex_solver_data_preparation_class::simplex_solver_data_preparation_class(std::vector<converted_data_pack, std::allocator<converted_data_pack> >&, datapack_structure_defination*, ann*) [29] void std::vector<float, std::allocator<float> >::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float> > >, float const&)
+  [13] core_class::propagate(std::vector<float, std::allocator<float> >) [88] simplex_solver_data_preparation_class::~simplex_solver_data_preparation_class() [87] std::vector<float, std::allocator<float> >::vector(std::vector<float, std::allocator<float> > const&)
+ [125] core_class::save_core(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [79] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [75] std::vector<float, std::allocator<float> >::operator=(std::vector<float, std::allocator<float> > const&)
+  [99] core_class::core_class(int, int, int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, datapack_structure_defination&) [19] std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>::operator()() [80] void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+  [90] path_struct::~path_struct() [20] unsigned long std::uniform_int_distribution<unsigned long>::operator()<std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul> >(std::mersenne_twister_engine<unsigned long, 32ul, 624ul, 397ul, 31ul, 2567483615ul, 11ul, 4294967295ul, 7ul, 2636928640ul, 15ul, 4022730752ul, 18ul, 1812433253ul>&, std::uniform_int_distribution<unsigned long>::param_type const&) [36] void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
+ [106] segment_class::add_f_data(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >&) [39] std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (simplex_solver_data_preparation_class::*)(), simplex_solver_data_preparation_class> > >::_M_run() [65] std::vector<int, std::allocator<int> >::_M_erase(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >)
+  [46] segment_class::checker_df(std::vector<neuron, std::allocator<neuron> >&) [116] void std::vector<chromosome, std::allocator<chromosome> >::_M_range_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > > >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, std::forward_iterator_tag) [84] std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+  [24] segment_class::checker_nf(std::vector<neuron, std::allocator<neuron> >&) [112] void std::vector<chromosome, std::allocator<chromosome> >::_M_realloc_insert<chromosome const&>(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, chromosome const&) [86] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ [110] segment_class::create_cores() [97] std::vector<chromosome, std::allocator<chromosome> >::_M_erase(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >) [76] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+ [136] segment_class::save_segment() [93] void std::vector<path_struct, std::allocator<path_struct> >::_M_realloc_insert<path_struct const&>(__gnu_cxx::__normal_iterator<path_struct*, std::vector<path_struct, std::allocator<path_struct> > >, path_struct const&) [118] void std::__adjust_heap<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, long, chromosome, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+ [122] segment_class::print_message() [111] void std::vector<segment_class, std::allocator<segment_class> >::_M_realloc_insert<segment_class const&>(__gnu_cxx::__normal_iterator<segment_class*, std::vector<segment_class, std::allocator<segment_class> > >, segment_class const&) [117] void std::__insertion_sort<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+   [7] segment_class::start_trainer() [121] void std::vector<shuffling_data, std::allocator<shuffling_data> >::_M_realloc_insert<shuffling_data const&>(__gnu_cxx::__normal_iterator<shuffling_data*, std::vector<shuffling_data, std::allocator<shuffling_data> > >, shuffling_data const&) [14] void std::__insertion_sort<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__ops::_Iter_less_iter)
+ [137] segment_class::set_critical_variable(chromosome*) [49] void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_range_insert<__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > > >(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, __gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, std::forward_iterator_tag) [73] void std::__introsort_loop<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+  [70] segment_class::combine_output_neurons(std::vector<std::vector<neuron, std::allocator<neuron> >, std::allocator<std::vector<neuron, std::allocator<neuron> > > >) [44] void std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_realloc_insert<converted_data_pack const&>(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >, converted_data_pack const&) [9] void std::__introsort_loop<__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, __gnu_cxx::__normal_iterator<long double*, std::vector<long double, std::allocator<long double> > >, long, __gnu_cxx::__ops::_Iter_less_iter)
+  [10] segment_class::testing_for_each_label() [94] std::vector<converted_data_pack, std::allocator<converted_data_pack> >::_M_erase(__gnu_cxx::__normal_iterator<converted_data_pack*, std::vector<converted_data_pack, std::allocator<converted_data_pack> > >) [113] void std::__move_median_to_first<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(chromosome, chromosome)>)
+  [21] segment_class::split_attributes_for_each_core() [78] std::vector<converted_data_pack, std::allocator<converted_data_pack> >::~vector() [96] void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)> >(__gnu_cxx::__normal_iterator<chromosome*, std::vector<chromosome, std::allocator<chromosome> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(chromosome, chromosome)>)
+ [105] segment_class::clear() [45] std::vector<converted_data_pack, std::allocator<converted_data_pack> >::operator=(std::vector<converted_data_pack, std::allocator<converted_data_pack> > const&) [95] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+   [8] segment_class::train() [92] void std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::_M_realloc_insert<nn_core_filtered_data const&>(__gnu_cxx::__normal_iterator<nn_core_filtered_data*, std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > >, nn_core_filtered_data const&) [83] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  [11] segment_class::propagate(std::vector<float, std::allocator<float> >) [107] std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> >::operator=(std::vector<nn_core_filtered_data, std::allocator<nn_core_filtered_data> > const&) [120] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ [100] segment_class::segment_class(segment_class const&) [26] void std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> >::_M_realloc_insert<simplex_solver_data_preparation_class const&>(__gnu_cxx::__normal_iterator<simplex_solver_data_preparation_class*, std::vector<simplex_solver_data_preparation_class, std::allocator<simplex_solver_data_preparation_class> > >, simplex_solver_data_preparation_class const&) [123] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+ [108] segment_class::segment_class(int, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [71] std::vector<neuron, std::allocator<neuron> >::_M_default_append(unsigned long)
+  [81] genetic_algorithm::comparator(chromosome, chromosome) [22] void std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> >::_M_realloc_insert<modified_simplex_solver::id const&>(__gnu_cxx::__normal_iterator<modified_simplex_solver::id*, std::vector<modified_simplex_solver::id, std::allocator<modified_simplex_solver::id> > >, modified_simplex_solver::id const&)
